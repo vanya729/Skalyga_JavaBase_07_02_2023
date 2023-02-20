@@ -9,15 +9,33 @@ public class homework {
         int userNum =0;
         int randNumber = (int) (Math.random() * 11);
 
+
         while (true) {
             if (scanner.hasNextInt() ) {
                 userNum = scanner.nextInt();
-                break;
+                if(userNum>10){
+                    System.out.println("Enter number for 0-10");
+                    scanner.nextLine();
+                }else {
+                    break;
+                }
             } else {
                 System.out.println("Wrong data!!!");
                 scanner.nextLine();
-//                continue;
             }
+
+
+
+
+//        while (true) {
+//            if (scanner.hasNextInt() ) {
+//                userNum = scanner.nextInt();
+//                break;
+//            } else {
+//                System.out.println("Wrong data!!!");
+//                scanner.nextLine();
+////                continue;
+//            }
 
         }
         for (int popitok = 3; popitok >0 ; --popitok) {
