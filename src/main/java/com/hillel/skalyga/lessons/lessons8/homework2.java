@@ -9,17 +9,31 @@ public class homework2 {
         Scanner scanner = new Scanner(System.in);
         int m=0,n=0;
 
-        System.out.println("Input number(m,n): ");
-        if (scanner.hasNextInt()) {
-            m =scanner.nextInt();
-            n =scanner.nextInt();
-            System.out.println("m= "+m);
-            System.out.println("n= "+n);
-        } else {
-            System.out.println("Input ONLY NUMBER");
-            System.exit(0);
-        }
+        while (true) {
+            System.out.println("Input number(m,n): ");
+            if (scanner.hasNextInt()) {
+                m = scanner.nextInt();
+                n = scanner.nextInt();
+                System.out.println("m= " + m);
+                System.out.println("n= " + n);
+                if (m < 0 ) {
+                    System.out.println("Enter positive m");
+                    scanner.nextLine();
+                    continue;
+                } if ( n < 0) {
+                    System.out.println("Enter positive n");
+                    scanner.nextLine();
+                    continue;
+                }
+                else {
+                    break;
+                }
+            } else {
+                System.out.println("Input ONLY NUMBER");
+                scanner.nextLine();
 
+            }
+        }
         int[][] array1 = new int[m][n];
         int[][] array2 = new int[n][m];
 
