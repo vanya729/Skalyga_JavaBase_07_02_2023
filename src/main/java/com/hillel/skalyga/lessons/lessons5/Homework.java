@@ -2,7 +2,7 @@ package com.hillel.skalyga.lessons.lessons5;
 
 import java.util.Scanner;
 
-public class homework {
+public class Homework {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

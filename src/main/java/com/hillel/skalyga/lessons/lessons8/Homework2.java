@@ -1,9 +1,8 @@
 package com.hillel.skalyga.lessons.lessons8;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class homework2 {
+public class Homework2 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

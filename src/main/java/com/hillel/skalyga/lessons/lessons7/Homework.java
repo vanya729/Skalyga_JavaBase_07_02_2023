@@ -1,9 +1,6 @@
 package com.hillel.skalyga.lessons.lessons7;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class homework {
+public class Homework {
     public static void main(String[] args) {
 
         int [] team1 = new int[25];

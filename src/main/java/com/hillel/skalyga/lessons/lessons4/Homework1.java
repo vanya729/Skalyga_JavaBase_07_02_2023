@@ -1,6 +1,6 @@
 package com.hillel.skalyga.lessons.lessons4;
 
-public class homework1 {
+public class Homework1 {
     public static void main(String[] args) {
 
         int warrior_li = 13;

@@ -2,7 +2,7 @@ package com.hillel.skalyga.lessons.lessons8;
 
 import java.util.Arrays;
 
-public class homework1 {
+public class Homework1 {
     public static void main(String[] args) {
         int number = 7;
         int points = 0;

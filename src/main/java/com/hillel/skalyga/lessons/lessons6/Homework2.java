@@ -1,6 +1,6 @@
 package com.hillel.skalyga.lessons.lessons6;
 
-public class homework2 {
+public class Homework2 {
     public static void main(String[] args) {
 
         int counter = 0;
