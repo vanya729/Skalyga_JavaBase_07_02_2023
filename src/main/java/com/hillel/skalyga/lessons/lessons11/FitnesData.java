@@ -3,14 +3,14 @@ import java.util.Calendar;
 import java.time.LocalDate;
 
 public class FitnesData {
-    private String firstName;
+    final String firstName;
     private String lastName;
-    private int birthDate;
-    private int birthMonth;
-    private int birthYear;
+    final int birthDate;
+    final int birthMonth;
+    final int birthYear;
     private int weight;
-    private String email;
-    private String phone;
+    final String email;
+    final String phone;
     private int pressure;
     private int stepsPerDay;
     private int age;
@@ -25,7 +25,7 @@ public class FitnesData {
         this.phone = phone;
         this.pressure = pressure;
         this.stepsPerDay = stepsPerDay;
-        this.birthDate = birthDate;
+        this.birthDate = birthDay;
         this.birthMonth = birthMonth;
         this.birthYear = birthYear;
 
