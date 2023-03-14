@@ -11,5 +11,8 @@ public class PopMusic extends MusicStyles {
         System.out.println("Playing POP music!!!");
     }
 
-
+    @Override
+    public String toString() {
+        return "PopMusic{}"+getPop();
+    }
 }

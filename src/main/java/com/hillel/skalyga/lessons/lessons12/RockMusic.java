@@ -11,5 +11,8 @@ public class RockMusic extends MusicStyles {
         System.out.println("Playing ROCK music!!!");
     }
 
-
+    @Override
+    public String toString() {
+        return "RockMusic{}"+getRock();
+    }
 }

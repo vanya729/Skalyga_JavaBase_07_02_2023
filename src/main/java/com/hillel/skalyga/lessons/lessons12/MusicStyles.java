@@ -8,6 +8,7 @@ public abstract class MusicStyles {
         this.pop = pop;
         this.rock = rock;
         this.classic = classic;
+
     }
 
     public String getPop() {

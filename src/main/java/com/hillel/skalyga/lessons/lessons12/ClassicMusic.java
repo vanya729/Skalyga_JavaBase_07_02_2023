@@ -12,6 +12,10 @@ public class ClassicMusic extends MusicStyles {
 
     }
 
+    @Override
+    public String toString() {
+        return "ClassicMusic{}"+getClassic();
+    }
 }
 
 
