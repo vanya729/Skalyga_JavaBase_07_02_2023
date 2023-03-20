@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         run();
     }
-
     static void run() {
         Scanner scanner = new Scanner(System.in);
 
@@ -33,6 +32,7 @@ public class Main {
                         userDrinkType = DrinksMachine.valueOf(userValue);
                         break;
                     }
+                    userDrinkType=null;
                 }
 
                 if (userDrinkType != null) {
